@@ -1,0 +1,22 @@
+/*----------------NAVBAR-----------*/
+
+.navbar {
+    background-color: #46322C;
+    color: #eaa794;
+}
+
+.navbar-toggler {
+    background-color: #eaa794;
+}
+
+#logo{
+    text-align: center;
+}
+
+#logo-image {
+    height: 46px;
+}
+
+#contact {
+    font-size: 28px;
+}
