@@ -3,6 +3,7 @@
 .navbar {
     background-color: #46322C;
     color: #eaa794;
+    height: 62px;
 }
 
 .navbar-toggler {
@@ -19,4 +20,22 @@
 
 #contact {
     font-size: 28px;
+}
+
+#sidebar-wrapper, #sidebar-wrapper .list-group-item {
+    background-color: #fbeeea;
+    color: #46322C;
+}
+
+#sidebar-wrapper .sidebar-heading {
+    height: 62px;
+}
+
+#sidebar-wrapper .list-group-item:hover {
+    background-color: #eaa794;
+}
+
+#sidebar-wrapper .list-group-item.active {
+    background-color: #eaa794;
+    color: #46322C;
 }
