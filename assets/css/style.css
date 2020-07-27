@@ -1,3 +1,7 @@
+#page-content-wrapper {
+    position: relative;
+}
+
 /*----------------NAVBAR-----------*/
 
 .navbar {
@@ -38,4 +42,29 @@
 #sidebar-wrapper .list-group-item.active {
     background-color: #eaa794;
     color: #46322C;
+}
+
+/*-----------------FOOTER---*/
+
+footer {
+    bottom: 0;
+    position: absolute;
+    background-color: #46322C;
+    height: 62px;
+    color: #eaa794;
+    text-align: center;
+}
+
+.social-links a {
+    color: #eaa794;
+    font-size: 28px;
+}
+
+.social-links {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.social-links .list-inline-item:not(:last-child) {
+    margin-right: 20px;
 }
