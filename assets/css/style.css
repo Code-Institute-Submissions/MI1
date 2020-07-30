@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:ital@1&display=swap');
+
+body {
+    color: #46322C;
+    font-family: "Montserrat"
+}
+
+h1, h2, h3 {
+    font-family: "Roboto"
+}
+
 #page-content-wrapper {
     position: relative;
 }
@@ -26,6 +37,11 @@
     font-size: 28px;
 }
 
+.dropdown-menu, .dropdown-item {
+    color: #46322C;
+    background-color: #fbeeea;
+}
+
 #sidebar-wrapper, #sidebar-wrapper .list-group-item {
     background-color: #fbeeea;
     color: #46322C;
@@ -33,6 +49,7 @@
 
 #sidebar-wrapper .sidebar-heading {
     height: 62px;
+    font-weight: 700;
 }
 
 #sidebar-wrapper .list-group-item:hover {
@@ -43,6 +60,28 @@
     background-color: #eaa794;
     color: #46322C;
 }
+
+/*-----------------CONTENT---*/
+
+#hero-img {
+    width: 100%;
+    height: 100%;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+#hero-outer {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+#content{
+    margin-bottom: 62px;
+}
+
+
 
 /*-----------------FOOTER---*/
 
@@ -67,4 +106,14 @@ footer {
 
 .social-links .list-inline-item:not(:last-child) {
     margin-right: 20px;
+}
+
+
+@keyframes hero-zoom {
+from {
+    transform: scale(1);
+    }
+to {
+    transform: scale(1.1);
+}
 }
