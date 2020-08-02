@@ -5,6 +5,10 @@ body {
   font-family: "Montserrat";
 }
 
+h1 {
+    margin-bottom: 1.5rem;
+}
+
 h1,
 h2,
 h3 {
@@ -94,6 +98,26 @@ h3 {
     background-color: #fbeeea;
 }
 
+#marketing {
+    text-align: center;
+}
+
+.bd-placeholder-img {
+     width: 140px;
+    height: 140px;
+}
+
+.btn-secondary {
+    color: #eaa794;
+    background-color: #46322c;
+    border-color: #46322c;
+}
+
+.btn-secondary:hover {
+    color: #46322c;
+    background-color: #eaa794;
+    border-color: #eaa794;
+}
 /*-----------------FOOTER---*/
 
 footer {
