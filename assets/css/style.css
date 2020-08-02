@@ -86,6 +86,12 @@ h3 {
   overflow: hidden;
 }
 
+@media (max-width: 576px) { 
+    #hero-outer {
+        height: 220px;
+    }
+}
+
 #content {
   margin-bottom: 62px;
 }
