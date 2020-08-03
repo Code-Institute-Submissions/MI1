@@ -115,15 +115,15 @@ h3 {
 }
 
 .btn-secondary {
-    color: #eaa794;
-    background-color: #46322c;
-    border-color: #46322c;
-}
-
-.btn-secondary:hover {
     color: #46322c;
     background-color: #eaa794;
     border-color: #eaa794;
+}
+
+.btn-secondary:hover {
+    color: #eaa794;
+    background-color: #46322c;
+    border-color: #46322c;
 }
 /*-----------------FOOTER---*/
 
