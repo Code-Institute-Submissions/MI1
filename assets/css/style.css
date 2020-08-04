@@ -18,6 +18,7 @@ h3 {
 
 #page-content-wrapper {
   position: relative;
+  padding-bottom: 4rem;
 }
 
 /*----------------NAVBAR-----------*/
@@ -25,7 +26,7 @@ h3 {
 .navbar {
   background-color: #46322c;
   color: #eaa794;
-  height: 62px;
+  height: 4rem;
 }
 
 .navbar-toggler {
@@ -41,11 +42,11 @@ h3 {
 }
 
 .logo-image {
-  height: 46px;
+  height: 2.5rem;
 }
 
 .contact {
-  font-size: 28px;
+  font-size: 1.5rem;
 }
 
 .dropdown-menu,
@@ -61,7 +62,7 @@ h3 {
 }
 
 #sidebar-wrapper .sidebar-heading {
-  height: 62px;
+  height: 4rem;
   font-weight: 700;
 }
 
@@ -96,10 +97,6 @@ h3 {
     }
 }
 
-.content {
-  margin-bottom: 62px;
-}
-
 .table {
   color: #46322c;
   font-family: "Montserrat";
@@ -114,8 +111,8 @@ h3 {
 }
 
 .bd-placeholder-img {
-     width: 140px;
-    height: 140px;
+     width: 8rem;
+    height: 8rem;
 }
 
 .btn-secondary {
@@ -142,16 +139,16 @@ footer {
 
 .social-links a {
   color: #eaa794;
-  font-size: 28px;
+  font-size: 1.5rem;
 }
 
 .social-links {
-  margin-top: 12px;
-  margin-bottom: 12px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .social-links .list-inline-item:not(:last-child) {
-  margin-right: 20px;
+  margin-right: 1.4rem;
 }
 
 @keyframes hero-zoom {
