@@ -1,85 +1,131 @@
 # Happy Burpees
 
-This page will make the life easier for CrossFit beginners.
+My project is a site for CrossFit beginners and CrossFit practitioners. It contains a startpage with navigation, a dictionary, a site for buying suggestions and a site for WODs (WorkOutOfDay).
 
-The page will include a dictionary, useful equipment and some example WODs (Workout Of Day).
-
- 
 ## UX
+
+The site is made for CrossFit practitioners, beginners firstly but also for them who have trained CrossFit for a while.
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+### User stories
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+- As a new CrossFit practitioner it is hard to understand all the new words and terms that are used and therefore this site will coniain a dictionary and descriptions.
+- As a CrossFit practitioner it is hard to find good equipment for my workout therefore you can find good buying suggestions on this site.
+- As a CrossFit practitioner you always want to find new WODs to try at home or in the BOX, therefore you will find some good workouts on the site.
+- As a CrossFit practitioner I want inspiration and therefore the site have social media links to get you what you want.
+- As a CrossFit practitioner you sometimes have questions or suggestions therefore you find Contact information with an e-mail address.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+### Existing features
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- Navbar with a menu to easily navigate to the four different pages.
+- Logo made in SmashingLogo to eyecatch the user.
+- Contact to easily get in touch with me if you have any questions or suggestions for the page.
+- Footer with social media links
+- [Main Page](index.html) with an eye catching picture and some information about the other pages to navigate to
+- [Dictionary](ordlista.html) to explain difficult words and abbreviations in CrossFit for the user.
+- [Buying suggestions](koptips.html) to let the user know about useful equipment and aids for CrossFit.
+- [WODs](wodar.html) to give the user some good worouts to do at home with variations.
 
 ### Features Left to Implement
-- Another feature idea
+
+- Navigation from the homepage text that explains the other pages.
+- Timer for the WODs.
+- A place where users or members can write their own WODs.
+- A place where users or members can write their time for a specific WOD so they can compare the results.
+
 
 ## Technologies Used
 
+- [HTML](https://sv.wikipedia.org/wiki/HTML)
+  - For content and structure.
+- [CSS](https://sv.wikipedia.org/wiki/Cascading_Style_Sheets)
+  - For styling.
+- [Bootstrap](https://getbootstrap.com/)
+  - For grid-systems and some additional styling.
 - [Start Bootstrap - Simple Sidebar](https://github.com/StartBootstrap/startbootstrap-simple-sidebar)
-    - Simple Sidebar template to kickstart project
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
+  - Simple Sidebar template to kickstart project.
 - [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
+  - The project uses **JQuery** to simplify DOM manipulation.
+- [GitHub](https://github.com/)
+  - For version control and hosting.
+- [Gitpod](https://gitpod.io)
+  - For coding.
+- [Fontawsome](https://fontawesome.com/)
+  - For icons.
+- [Google Fonts](https://fonts.google.com/)
+  - For font-families.
+- [SmashingLogo](https://smashinglogo.com)
+  - To create the HappyBurpees logo.
+- [Coolors](https://coolors.co/e8a28b-46322c-ffffff-fbeeea-e8a28b)
+  - For setting the color-scheme.
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+- W3C CSS Validator came back with no errors
+- W3C HTML Validator came back with no errors
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+1. As a new CrossFit practitioner it is hard to understand all the new words and terms that are used and therefore this site will coniain a dictionary and descriptions.
+    1. Go to the main page.
+    2. Click dictionary link (Ordlista) in sidebar navigation.
+    3. Find words and descriptions that you are looking for (for example T2B) and see external link to video for extra clarification. 
+    
+2. As a CrossFit practitioner it is hard to find good equipment for my workout therefore you can find good buying suggestions on this site.
+    1. Go to the main page.
+    2. Click buying suggestions link (Köptips) in sidebar navigation.
+    3. Find the item you are looking for ore get inspirated of.
+    4. Click the buy button (Köp här) and verify that you end up on the webstore that sells it.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+3. As a CrossFit practitioner you always want to find new WODs to try at home or in the BOX, therefore you will find some good workouts on the site.
+    1. Go to the main page.
+    2. Click WODs link (WODar) in sidebar navigation.
+    3. See and try the WODs at home for some good exercise.
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+4. As a CrossFit practitioner I want inspiration and therefore the site have social media links to get you what you want.
+    1. Go to the footer on the page.
+    2. Click on any of the links that takes you to facebook, instagram  or youtube.
+    3. Veriify that the links takes you to the social media you chosed.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+5. As a CrossFit practitioner you sometimes have questions or suggestions therefore you find Contact information with an e-mail address.
+    1. Go to the top left on the page.
+    2. Click on the mail-icon.
+    3. Verify that your e-mail client opens up with contact@happyburpees.se as the receiver.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+### Bugs Found
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+- A bug on the page is that when you click the contact link it opens up a mail client and not g-mail.
+
+### Diffrent Screen-sizes and browsers
+
+- Mobile first
+- Hero image different height on mobile vs bigger screens
+- Sidebar navigation hidden by default on smaller screens but visible by default on bigger
+- Bootstrap grid differ a bit depending on screen size
+
+Site is meant to work on modern web browsers but no regard is taken towards back compability of older browsers. 
+
+
+
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+To deploy the GitHub repository to GitHub pages the following steps were done
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+- Select Settings at the top of the page.
+- Scroll down to the GitHub Pages section.
+- Under "GitHub Pages" in the Source section, click the dropdown menu labelled 'None' and select 'master'.
+- Click "save".
+- Scroll back down to the GitHub Pages section and click the link to your website.
 
 ## Credits
 
-### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
-
 ### Media
+
 - The photos used in this site were obtained from Shutterstock.
 
-### Acknowledgements
+### Code
 
-- I received inspiration for this project from X
+- Hero-img animation was taken from HTML/CSS Project - Love Running.
+- [Start Bootstrap - Simple Sidebar](https://github.com/StartBootstrap/startbootstrap-simple-sidebar)
+  - Simple Sidebar template to kickstart project.
